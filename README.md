@@ -30,55 +30,15 @@ knox_1959 = [170, 316, 445, 468, 938, 1034, 1128, 1233, 1248, 1249,
         2049, 2051, 2067, 2075, 2108, 2151, 2174, 2191]
 
 clusters = get_clusters(knox_1959)
-clusters
+
+print(clusters)
 ```
 
 </div>
 <div class="output_area" markdown="1">
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>X_i</th>
-      <th>X_j</th>
-      <th>i</th>
-      <th>j</th>
-      <th>I_H_F</th>
-      <th>ps</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0.525977</td>
-      <td>0.653637</td>
-      <td>7</td>
-      <td>21</td>
-      <td>7.319199e+14</td>
-      <td>-6.661338e-16</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+            X_i       X_j  i   j         I_H_F            ps
+    0  0.525977  0.653637  7  21  7.319199e+14 -6.661338e-16
 
 
 </div>

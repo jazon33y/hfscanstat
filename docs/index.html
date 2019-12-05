@@ -58,7 +58,8 @@ summary: "A python implementation of the hypothesis-free multiple scan statistic
         <span class="mi">2049</span><span class="p">,</span> <span class="mi">2051</span><span class="p">,</span> <span class="mi">2067</span><span class="p">,</span> <span class="mi">2075</span><span class="p">,</span> <span class="mi">2108</span><span class="p">,</span> <span class="mi">2151</span><span class="p">,</span> <span class="mi">2174</span><span class="p">,</span> <span class="mi">2191</span><span class="p">]</span>
 
 <span class="n">clusters</span> <span class="o">=</span> <span class="n">get_clusters</span><span class="p">(</span><span class="n">knox_1959</span><span class="p">)</span>
-<span class="n">clusters</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">clusters</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -70,49 +71,11 @@ summary: "A python implementation of the hypothesis-free multiple scan statistic
 
 <div class="output_area">
 
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>X_i</th>
-      <th>X_j</th>
-      <th>i</th>
-      <th>j</th>
-      <th>I_H_F</th>
-      <th>ps</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0.525977</td>
-      <td>0.653637</td>
-      <td>7</td>
-      <td>21</td>
-      <td>7.319199e+14</td>
-      <td>-6.661338e-16</td>
-    </tr>
-  </tbody>
-</table>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>        X_i       X_j  i   j         I_H_F            ps
+0  0.525977  0.653637  7  21  7.319199e+14 -6.661338e-16
+</pre>
 </div>
-</div>
-
 </div>
 
 </div>
