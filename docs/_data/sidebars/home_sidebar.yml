@@ -10,7 +10,7 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: Title
+      title: scanstat
       url: /scanstat
     output: web
     title: hfscanstat

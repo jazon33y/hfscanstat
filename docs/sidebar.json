@@ -1,6 +1,6 @@
 {
   "hfscanstat": {
     "Overview": "/",
-    "Title": "/scanstat"
+    "scanstat": "/scanstat"
   }
 }
